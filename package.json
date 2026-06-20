@@ -23,7 +23,7 @@
   },
   "engines": { "node": ">=22" },
   "scripts": {
-    "postinstall": "node ./scripts/link-workspace-core.mjs"
+    "postinstall": "node ./scripts/postinstall.mjs"
   },
   "license": "MIT"
 }
