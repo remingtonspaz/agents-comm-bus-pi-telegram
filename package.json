@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "agents-comm-bus": "*",
-    "@agents-comm-bus/pi-core": "0.1.0",
+    "@agents-comm-bus/pi-core": "git:github.com/remingtonspaz/agents-comm-bus-pi-core",
     "node-telegram-bot-api": "^0.66.0"
   },
   "bundledDependencies": ["@agents-comm-bus/pi-core"],
@@ -23,9 +23,7 @@
     "@earendil-works/pi-tui": "*",
     "typebox": "*"
   },
-  "engines": {
-    "node": ">=22"
-  },
+  "engines": { "node": ">=22" },
   "scripts": {
     "postinstall": "node ./scripts/link-workspace-core.mjs"
   },
