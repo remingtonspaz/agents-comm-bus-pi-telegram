@@ -12,9 +12,7 @@
     "skills": ["./skills"]
   },
   "dependencies": {
-    "agents-comm-bus": "*",
-    "@agents-comm-bus/pi-core": "git:github.com/remingtonspaz/agents-comm-bus-pi-core",
-    "node-telegram-bot-api": "^0.66.0"
+    "@agents-comm-bus/pi-core": "git+https://github.com/remingtonspaz/agents-comm-bus-pi-core.git"
   },
   "bundledDependencies": ["@agents-comm-bus/pi-core"],
   "peerDependencies": {
